@@ -1,0 +1,13 @@
+- 👋 Hi, I’m Pedro Bernardes. I have experience on several kinds of project development:
+    - [WEB DEVELOPMENT] Django, DRF, Node.js, React.     
+    - [AIR CONTROL SYSTEMS] Project Management: budget, electrical, mechanical projects management. Automation systems development (Rockwell, Schneider, Siemens). Software development (Python, VBA, Google Apps Script). Digital transformation.
+    - [CONVEYING SYSTEMS] Development, comissioning and support of automated conveying systems: PLC systems (Siemens, Rockwell, Schneider), software systems (C++, SQL databases), electrical systems.
+    - [AERONAUTICS] Development and validation of embedded systems (in C) for the aerospace industry following DO-178C Software Considerations. 
+    - [EMBEDDED SYSTEMS] C, Embedded Linux, RTOS, Espruino (embedded JavaScript), MicroPython...
+    - [AUTOMOTIVE] Model Based Design for developing control systems on MATLAB, Simulink with automated code generation from Simulink and programming C blocks inside Simulink. Simulation systems developed in Python.
+    - [AUTOMATED ELECTONICS TEST EQUIPMENT INDUSTRY] Digital electronics development on FPGA (SoC) boards with VERILOG, VHDL integrating systems with ARM microcontrollers with embedded Linux and C programs.
+
+- 👀 I’m interested in software (Web, embedded, industrial systems, AI, control laws) systems development.    
+- 🌱 I’m currently learning React, Django. 
+- 💞️ I’m looking to collaborate on Web, emmbedded systems and AI projects.
+- 📫 How to reach me https://www.linkedin.com/in/pedro-bernardes/
