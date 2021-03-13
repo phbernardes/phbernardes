@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Pedro Bernardes. I have experience on several kinds of project development:
+- 👋 Hi, I’m Pedro Bernardes. I have experience on diverse kind of project development and management. I have worked on big teams projects under agile frameworks like Scrum and also on projects made from scrath by myself (working on architecture, development, testing and putting in production).
     - [WEB DEVELOPMENT] Django, DRF, Node.js, React.     
     - [AIR CONTROL SYSTEMS] Project Management: budget, electrical, mechanical projects management. Automation systems development (Rockwell, Schneider, Siemens). Software development (Python, VBA, Google Apps Script). Digital transformation.
     - [CONVEYING SYSTEMS] Development, comissioning and support of automated conveying systems: PLC systems (Siemens, Rockwell, Schneider), software systems (C++, SQL databases), electrical systems.
