@@ -30,7 +30,7 @@
 <meta property="og:description" content="FastAPIFastAPI is based in Starlette and Pydantic. Starlette is a lightweight ASGI framework, it has a impressive performance, supports async and its simplicity allow us to easily write scalable web s">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-05-15T17:49:48.000Z">
-<meta property="article:modified_time" content="2022-05-15T19:34:24.050Z">
+<meta property="article:modified_time" content="2022-05-15T19:43:58.264Z">
 <meta property="article:author" content="Pedro Bernardes">
 <meta property="article:tag" content="python">
 <meta property="article:tag" content="django">
@@ -226,7 +226,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-05-15 19:49:48 / Modified: 21:34:24" itemprop="dateCreated datePublished" datetime="2022-05-15T19:49:48+02:00">2022-05-15</time>
+              <time title="Created: 2022-05-15 19:49:48 / Modified: 21:43:58" itemprop="dateCreated datePublished" datetime="2022-05-15T19:49:48+02:00">2022-05-15</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -417,7 +417,8 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># forum/admin.py</span></span><br><span class="line"><span class="keyword">from</span> django.contrib <span class="keyword">import</span> admin</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> Post</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@admin.register(<span class="params">Post</span>)</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">PostAdmin</span>(<span class="params">admin.ModelAdmin</span>):</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
 
 <p>Now you can go to <a target="_blank" rel="noopener" href="http://127.0.0.1:8000/django/admin">http://127.0.0.1:8000/django/admin</a> to manage users and forum posts.</p>
-<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>The objective of this tutorial is to show you how to use FastAPI with Django. FastAPI provides better performance than Django REST Framework, enforces type hints in the code and has minimal boilerplate code. Django ORM is a great choice for abstracting database operations and managing database migrations.</p>
+<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>We developed an API and you can access the swagger (<a target="_blank" rel="noopener" href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs</a>) and Django admin (<a target="_blank" rel="noopener" href="http://127.0.0.1:8000/django/admin">http://127.0.0.1:8000/django/admin</a>).</p>
+<p>FastAPI provides better performance than Django REST Framework, enforces type hints in the code and has minimal boilerplate code. Django ORM is a great choice for abstracting database operations and managing database migrations.</p>
 <h2 id="Async"><a href="#Async" class="headerlink" title="Async"></a>Async</h2><p>We didn’t cover the use of async in this tutorial, Django ORM doesn’t safely support async yet. But we can <a target="_blank" rel="noopener" href="https://docs.djangoproject.com/en/4.0/topics/async/#async-views">use the asgiref library</a> to await Django DB transactions until support for async is released. FastAPI is fully compatible with async views.</p>
 <h2 id="Out-of-the-shell-solutions"><a href="#Out-of-the-shell-solutions" class="headerlink" title="Out of the shell solutions"></a>Out of the shell solutions</h2><p>Instead of combining FastAPI and Django in a project like in this example, there are other options like <a target="_blank" rel="noopener" href="https://github.com/vitalik/django-ninja">Django Ninja</a> that has almost 3k stars in Github (as of May 2022). But I recomend directly using FastAPI because most of the <a target="_blank" rel="noopener" href="https://github.com/vitalik/django-ninja/blob/master/ninja/main.py">code for the ASGI framework of Django Ninja</a> is an adaptation of <a target="_blank" rel="noopener" href="https://github.com/tiangolo/fastapi/blob/master/fastapi/applications.py">FastAPI’s code</a>. FastAPI is wider adapted and will probably provide more comunity support and maintenability.</p>
 <h2 id="Source-code"><a href="#Source-code" class="headerlink" title="Source code"></a>Source code</h2><p>You can find the source code of this project at:<br><a target="_blank" rel="noopener" href="https://github.com/phbernardes/fastapi-django">https://github.com/phbernardes/fastapi-django</a></p>
