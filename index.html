@@ -217,7 +217,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-05-15 19:49:48 / Modified: 20:39:21" itemprop="dateCreated datePublished" datetime="2022-05-15T19:49:48+02:00">2022-05-15</time>
+              <time title="Created: 2022-05-15 19:49:48 / Modified: 21:34:24" itemprop="dateCreated datePublished" datetime="2022-05-15T19:49:48+02:00">2022-05-15</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -254,17 +254,17 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h1><h2 id="Advantages"><a href="#Advantages" class="headerlink" title="Advantages"></a>Advantages</h2><p>Django provides a great toolbox to quickly develop a web application, as from their logo: <code>&quot;The web framework for perfectionists with deadlines&quot;</code>.</p>
+          <h1 id="FastAPI"><a href="#FastAPI" class="headerlink" title="FastAPI"></a>FastAPI</h1><p>FastAPI is based in Starlette and Pydantic.</p>
+<p>Starlette is a lightweight ASGI framework, it has a <a target="_blank" rel="noopener" href="https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune&l=zijzen-sf">impressive performance</a>, supports async and its simplicity allow us to easily write scalable web systems.</p>
+<p>Pydantic provides data validation and serialization using python type annotations, it enforces type hints at runtime, provides user friendly errors when data is invalid, is fast (it <a target="_blank" rel="noopener" href="https://pydantic-docs.helpmanual.io/benchmarks/">claims to be 12x faster than DRF</a>).</p>
+<p>The union of Starlette and Pydantic added to automatic OpenAPI schemas generation and swagger gives us a great toolset to quickly develop a (Fast) API. Type annotations enforcement results in an amazing developer experience.</p>
+<p>FastAPI is database agnostic and easily integrable with any Python ORM (here enters Django ORM in this example).</p>
+<h1 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h1><h2 id="Advantages"><a href="#Advantages" class="headerlink" title="Advantages"></a>Advantages</h2><p>Django provides a great toolbox to quickly develop a web application, as from their logo: <code>&quot;The web framework for perfectionists with deadlines&quot;</code>.</p>
 <p>Django’s ORM is simple, allow us to easily write clean code, is powerful to translate different types of queries without use of raw SQL and has a great migration control system.</p>
 <p>Django’s admin is great tool to manage data with minimum development effort.</p>
 <h2 id="Disadvantages"><a href="#Disadvantages" class="headerlink" title="Disadvantages"></a>Disadvantages</h2><p>Django Rest Framework (DRF) serializers are way slower than Pydantic validators/serializer. </p>
 <p>Django is built based in metaclasses, this results in missing type hints in several objects you manipulate.</p>
 <p>Django ORM is not able to operate safely in an async environment. But discussions about supporting async are active and hopefully Psycopg3 implementation will enable this support. Use of <a target="_blank" rel="noopener" href="https://docs.djangoproject.com/en/4.0/topics/async/#async-views">asgiref library</a> solves this problem until this is implemented.</p>
-<h1 id="FastAPI"><a href="#FastAPI" class="headerlink" title="FastAPI"></a>FastAPI</h1><p>FastAPI is based in Starlette and Pydantic.</p>
-<p>Starlette is a lightweight ASGI framework, it has a <a target="_blank" rel="noopener" href="https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune&l=zijzen-sf">impressive performance</a>, supports async and its simplicity allow us to easily write scalable web systems.</p>
-<p>Pydantic provides data validation and serialization using python type annotations, it enforces type hints at runtime, provides user friendly errors when data is invalid, is fast (it <a target="_blank" rel="noopener" href="https://pydantic-docs.helpmanual.io/benchmarks/">claims to be 12x faster than DRF</a>, I benchmarked it 6x faster for payloads validation and serialization).</p>
-<p>The union of Starlette and Pydantic added to automatic OpenAPI schemas generation and swagger gives us a great toolset to quickly develop a (Fast) API. Type annotations enforcement leads to an amazing developer experience.</p>
-<p>FastAPI is database agnostic and easily integrable with any Python ORM (here enters Django ORM in this example).</p>
 <h1 id="Uniting-forces"><a href="#Uniting-forces" class="headerlink" title="Uniting forces"></a>Uniting forces</h1><p>Starlette will provide a light weight ASGI framework to server our API endpoints.</p>
 <p>Pydantic will provide a toolset to validate and serialize our payloads, while enforcing type hints in our code base.</p>
 <p>FastAPI’s OpenAPI support will provide a toolset to generate a nice API documentation.</p>
