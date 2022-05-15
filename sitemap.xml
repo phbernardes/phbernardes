@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://phbernardes.github.io/categories/python/django/django-2021-11-07-Model-Managers/</loc>
+    <loc>https://phbernardes.github.io/categories/django-pydantic/django-pydantic-2022-03-26-Django-and-Pydantic/</loc>
     
-    <lastmod>2021-11-07</lastmod>
+    <lastmod>2022-05-15</lastmod>
     
   </url>
   
@@ -39,7 +39,7 @@
 
   <url>
     <loc>https://phbernardes.github.io/</loc>
-    <lastmod>2021-11-07</lastmod>
+    <lastmod>2022-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,14 +47,35 @@
   
   <url>
     <loc>https://phbernardes.github.io/tags/python/</loc>
-    <lastmod>2021-11-07</lastmod>
+    <lastmod>2022-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://phbernardes.github.io/tags/django/</loc>
-    <lastmod>2021-11-07</lastmod>
+    <lastmod>2022-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://phbernardes.github.io/tags/fastapi/</loc>
+    <lastmod>2022-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://phbernardes.github.io/tags/pydantic/</loc>
+    <lastmod>2022-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://phbernardes.github.io/tags/djantic/</loc>
+    <lastmod>2022-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -62,15 +83,8 @@
 
   
   <url>
-    <loc>https://phbernardes.github.io/categories/python/</loc>
-    <lastmod>2021-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://phbernardes.github.io/categories/python/django/</loc>
-    <lastmod>2021-11-07</lastmod>
+    <loc>https://phbernardes.github.io/categories/django-pydantic/</loc>
+    <lastmod>2022-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
